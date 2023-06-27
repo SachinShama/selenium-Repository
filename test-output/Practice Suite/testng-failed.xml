@@ -3,13 +3,20 @@
 <suite name="Failed suite [Practice Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test Basics 1(failed)">
     <classes>
-      <class name="testCases.testCase01">
+      <class name="testCases.AdminPageTC">
         <methods>
-          <include name="loginTest"/>
+          <include name="setup"/>
+          <include name="adminpageTestCase"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testCases.AdminPageTC -->
+      <class name="testCases.testCase2">
+        <methods>
+          <include name="TC02"/>
           <include name="setup"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- testCases.testCase01 -->
+      </class> <!-- testCases.testCase2 -->
     </classes>
   </test> <!-- Test Basics 1(failed) -->
 </suite> <!-- Failed suite [Practice Suite] -->

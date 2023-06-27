@@ -1,5 +1,7 @@
 package pageObjects;
 
+import java.util.concurrent.TimeUnit;
+
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.WebDriver;
@@ -16,8 +18,8 @@ public class baseClass {
 	readConfig rc=new readConfig();
 	
 	public String baseURL=rc.getapplicationURL();
-	//public String uname=rc.getusername();
-	//public String pword=rc.getPassword();
+	public String uname=rc.getusername();
+	public String pword=rc.getPassword();
 	public String chromedriver=rc.chromedriver();
 	public static WebDriver driver;
 	public static Logger logger;
@@ -33,14 +35,22 @@ public class baseClass {
 		
 			System.setProperty("webdriver.chrome.driver",chromedriver);
 			driver=new ChromeDriver();
-		
+			driver.get(baseURL);
+			driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+			loginPage lp=new loginPage(driver);
+			lp.unameInput(uname);
+			lp.pwdInput(pword);
+			lp.submit();
+			
+			
+			driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		
 	}
 	
 	
 	@AfterClass
 	public void tearDown() {
-		driver.quit();
+		//driver.quit();
 	}
 	
 	

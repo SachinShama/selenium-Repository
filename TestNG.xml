@@ -4,7 +4,8 @@
   <test name="Test Basics 1">
       
       <classes>
-      <class name="testCases.testCase01"/>
+      <class name="testCases.testCase2"/>
+      <class name="testCases.AdminPageTC"/>
       </classes>
   </test> <!-- Test --> 
 
