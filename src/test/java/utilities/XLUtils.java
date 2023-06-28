@@ -62,17 +62,13 @@ public class XLUtils {
 		wb=new XSSFWorkbook(excelInput);
 		xs=wb.getSheet(xlSheet);
 		row=xs.getRow(rowNum);
-		cell=row.getCell(colNum);
-		cell.setCellValue(data);
-		wb.close();
-		excelInput.close();
-		
+		cell=row.createCell(colNum);
+
+			cell.setCellValue(data);
+			excelOutput=new FileOutputStream(xlfile);
+			wb.write(excelOutput);
+			wb.close();
+			excelInput.close();	
 	}
-	
-	
-	
-	
-	
-	
-	
+
 }

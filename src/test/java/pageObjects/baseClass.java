@@ -36,6 +36,7 @@ public class baseClass {
 			System.setProperty("webdriver.chrome.driver",chromedriver);
 			driver=new ChromeDriver();
 			driver.get(baseURL);
+			logger.info("URL opened");
 			driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 			loginPage lp=new loginPage(driver);
 			lp.unameInput(uname);

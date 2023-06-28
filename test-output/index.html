@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Default_suite" class="navigator-link">
-              <span class="suite-name border-failed">Default suite</span>
+              <span class="suite-name border-passed">Default suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -92,21 +92,26 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method, 1 failed,   </span>
+                    <span class="method-stats">2 methods,   2 passed</span>
                   </li>
                   <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Default_suite" class="hide-methods failed suite-Default_suite"> (hide)</a> <!-- hide-methods failed suite-Default_suite -->
-                      <a href="#" panel-name="suite-Default_suite" class="show-methods failed suite-Default_suite"> (show)</a> <!-- show-methods failed suite-Default_suite -->
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
                     </span>
-                    <div class="method-list-content failed suite-Default_suite">
+                    <div class="method-list-content passed suite-Default_suite">
                       <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="testCases.AdminPageTC" class="method navigator-link" hash-for-method="adminpageTestCase">adminpageTestCase</a> <!-- method navigator-link -->
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="testCases.AdminPageTC" class="method navigator-link" hash-for-method="adminpageTestCase(Rahul, Admin, Rah, Enabled)">adminpageTestCase(Rahul, Admin, Rah, Enabled)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content failed suite-Default_suite -->
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="testCases.AdminPageTC" class="method navigator-link" hash-for-method="adminpageTestCase(Admin, Admin, Paul Collings, Enabled)">adminpageTestCase(Admin, Admin, Paul Collings, Enabled)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Default_suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -118,75 +123,34 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Default_suite" class="panel Default_suite">
-          <div class="suite-Default_suite-class-failed">
+          <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
+              <img src="passed.png"/>
               <span class="class-name">testCases.AdminPageTC</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="adminpageTestCase">
-                  </a> <!-- adminpageTestCase -->
+                  <a name="adminpageTestCase(Rahul, Admin, Rah, Enabled)">
+                  </a> <!-- adminpageTestCase(Rahul, Admin, Rah, Enabled) -->
                   <span class="method-name">adminpageTestCase</span>
-                  <div class="stack-trace">java.lang.RuntimeException: java.lang.NoSuchMethodError: &apos;javax.xml.parsers.DocumentBuilder org.apache.poi.util.XMLHelper.newDocumentBuilder()&apos;
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:57)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:157)
-	at org.testng.internal.Parameters.handleParameters(Parameters.java:803)
-	at org.testng.internal.Parameters.handleParameters(Parameters.java:728)
-	at org.testng.internal.invokers.ParameterHandler.handleParameters(ParameterHandler.java:72)
-	at org.testng.internal.invokers.ParameterHandler.createParameters(ParameterHandler.java:51)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:924)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:829)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-	at org.testng.TestNG.runSuites(TestNG.java:1099)
-	at org.testng.TestNG.run(TestNG.java:1067)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-Caused by: java.lang.NoSuchMethodError: &apos;javax.xml.parsers.DocumentBuilder org.apache.poi.util.XMLHelper.newDocumentBuilder()&apos;
-	at org.apache.poi.ooxml.util.DocumentHelper.newDocumentBuilder(DocumentHelper.java:47)
-	at org.apache.poi.ooxml.util.DocumentHelper.&lt;clinit&gt;(DocumentHelper.java:36)
-	at org.apache.poi.openxml4j.opc.internal.ContentTypeManager.parseContentTypesFile(ContentTypeManager.java:395)
-	at org.apache.poi.openxml4j.opc.internal.ContentTypeManager.&lt;init&gt;(ContentTypeManager.java:104)
-	at org.apache.poi.openxml4j.opc.internal.ZipContentTypeManager.&lt;init&gt;(ZipContentTypeManager.java:54)
-	at org.apache.poi.openxml4j.opc.ZipPackage.getPartsImpl(ZipPackage.java:256)
-	at org.apache.poi.openxml4j.opc.OPCPackage.getParts(OPCPackage.java:732)
-	at org.apache.poi.openxml4j.opc.OPCPackage.open(OPCPackage.java:310)
-	at org.apache.poi.ooxml.util.PackageHelper.open(PackageHelper.java:47)
-	at org.apache.poi.xssf.usermodel.XSSFWorkbook.&lt;init&gt;(XSSFWorkbook.java:309)
-	at utilities.XLUtils.getRowCount(XLUtils.java:25)
-	at testCases.AdminPageTC.getData(AdminPageTC.java:57)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:53)
-	... 25 more
-
-</div> <!-- stack-trace -->
+                  <span class="parameters">(Rahul,Admin,Rah,Enabled)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="adminpageTestCase(Admin, Admin, Paul Collings, Enabled)">
+                  </a> <!-- adminpageTestCase(Admin, Admin, Paul Collings, Enabled) -->
+                  <span class="method-name">adminpageTestCase</span>
+                  <span class="parameters">(Admin,Admin,Paul Collings,Enabled)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Default_suite-class-failed -->
+          </div> <!-- suite-Default_suite-class-passed -->
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">/private/var/folders/hy/zhwd3chd71317jydcctx45zh0000gn/T/testng-eclipse-1356069981/testng-customsuite.xml</span>
+            <span class="header-content">/private/var/folders/hy/zhwd3chd71317jydcctx45zh0000gn/T/testng-eclipse--1156094607/testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -235,16 +199,20 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(2);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'adminpageTestCase')
 data.setCell(0, 2, 'testCases.AdminPageTC')
-data.setCell(0, 3, 0);
+data.setCell(0, 3, 25618);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'adminpageTestCase')
+data.setCell(1, 2, 'testCases.AdminPageTC')
+data.setCell(1, 3, 16450);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 0 ms</span>
+              <span class="suite-total-time">Total running time: 42 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -275,9 +243,17 @@ return data;
                 <span class="method-name">setup</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">adminpageTestCase(Rahul, Admin, Rah, Enabled)</span>
+                <span class="method-start">8131 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">adminpageTestCase(Admin, Admin, Paul Collings, Enabled)</span>
+                <span class="method-start">24587 ms</span>
+              </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">7564 ms</span>
+                <span class="method-start">50209 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

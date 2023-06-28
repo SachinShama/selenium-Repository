@@ -6,7 +6,7 @@
       <class name="testCases.AdminPageTC">
         <methods>
           <include name="setup"/>
-          <include name="adminpageTestCase"/>
+          <include name="adminpageTestCase" invocation-numbers="1"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- testCases.AdminPageTC -->

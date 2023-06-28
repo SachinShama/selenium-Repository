@@ -26,13 +26,13 @@ WebElement adminUsername;
 @FindBy(className="oxd-select-text-input")
 List<WebElement> list; //declaring as list as we have 2 fields with same class name and this one is  first.This would save both elements in list
 
-@FindBy (css=("input[placeholder='Type for hints...'"))
+@FindBy(css=("input[placeholder='Type for hints...'"))
 WebElement employeeNM;
 
-@FindBy (className="oxd-button oxd-button--medium oxd-button--secondary orangehrm-left-space")
+@FindBy(css=("button[type='submit'"))
 WebElement searchbtn;
 
-@FindBy(className="oxd-text oxd-text--span oxd-input-field-error-message oxd-input-group__message")
+@FindBy(xpath="//*[@id=\"app\"]/div[1]/div[2]/div[2]/div/div[1]/div[2]/form/div[1]/div/div[3]/div/span")
 WebElement invalidMsg;
 
 @FindBy(css=("div[role='table'"))
@@ -71,8 +71,12 @@ public void userRole(String usrrole) throws InterruptedException {
 	//urolesel.deselectByVisibleText(usrrole);
 }
 
-public void employeeName(String empname) {
+public void employeeName(String empname) throws InterruptedException {
 	employeeNM.sendKeys(empname);
+	Thread.sleep(2000);
+	employeeNM.sendKeys(Keys.ARROW_DOWN);
+	Thread.sleep(2000);
+	employeeNM.sendKeys(Keys.ENTER);
 }
 
 public void status(String stat) throws InterruptedException {
