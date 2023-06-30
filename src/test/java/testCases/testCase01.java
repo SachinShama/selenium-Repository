@@ -1,13 +1,13 @@
 package testCases;
 
-import java.util.concurrent.TimeUnit;
 
+
+import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import pageObjects.baseClass;
-import pageObjects.loginPage;
-import utilities.readConfig;
+
 
 public class testCase01 extends baseClass {
 	

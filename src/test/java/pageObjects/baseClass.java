@@ -21,20 +21,28 @@ public class baseClass {
 	public String uname=rc.getusername();
 	public String pword=rc.getPassword();
 	public String chromedriver=rc.chromedriver();
-	public static WebDriver driver;
+	public  WebDriver driver;
 	public static Logger logger;
 	
 	//@Parameters("browser")
 	@BeforeClass
-	public void setup() {
+	@Parameters("browser")
+	public void setup(String br) {
 		//System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"//Drivers//chromedriver")
 		
 		logger=Logger.getLogger("Practice");
 		PropertyConfigurator.configure("Log4j.properties");
 		
-		
+		if(br.equals("chrome")) {
 			System.setProperty("webdriver.chrome.driver",chromedriver);
 			driver=new ChromeDriver();
+		}
+		else if(br.equals("firefox")) {
+			
+		}
+		else if(br.equals("safari")) {
+			
+		}
 			driver.get(baseURL);
 			logger.info("URL opened");
 			driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
@@ -51,7 +59,7 @@ public class baseClass {
 	
 	@AfterClass
 	public void tearDown() {
-		//driver.quit();
+		driver.quit();
 	}
 	
 	
