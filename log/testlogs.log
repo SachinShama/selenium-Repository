@@ -1,15 +1,99 @@
-2023-05-14 17:13:37 INFO  Practice:17 - -Entered the URL successfully
-2023-05-14 17:13:37 INFO  Practice:22 - -Entered the username successfully
-2023-05-14 17:13:41 INFO  Practice:27 - -Test case passed!
-2023-05-14 20:34:23 INFO  Practice:17 - -Entered the URL successfully
-2023-05-14 20:34:49 INFO  Practice:17 - -Entered the URL successfully
-2023-05-14 20:34:50 INFO  Practice:23 - -Entered the username successfully
-2023-05-14 20:34:53 INFO  Practice:28 - -Test case passed!
-2023-05-14 20:35:48 INFO  Practice:17 - -Entered the URL successfully
-2023-05-14 20:35:49 INFO  Practice:23 - -Entered the username successfully
-2023-05-14 20:35:52 INFO  Practice:28 - -Test case passed!
-2023-05-17 00:55:33 INFO  Practice:17 - -Entered the URL successfully
-2023-05-17 00:55:35 INFO  Practice:23 - -Entered the username successfully
-2023-05-17 00:55:37 INFO  Practice:28 - -Test case passed!
-2023-06-22 13:41:50 INFO  Practice:17 - -Entered the URL successfully
-2023-06-22 13:41:50 INFO  Practice:26 - -Test case passed!
+2023-06-28 18:51:41 INFO  Practice:39 - -URL opened
+2023-06-28 18:52:08 INFO  Practice:39 - -URL opened
+2023-06-28 18:52:25 INFO  Practice:30 - -searched clicked
+2023-06-28 18:52:40 INFO  Practice:30 - -searched clicked
+2023-06-28 18:52:50 INFO  Practice:47 - -1
+2023-06-28 18:52:50 INFO  Practice:50 - -Table returned valid data.Test case is passed
+2023-06-28 18:52:50 INFO  Practice:53 - -6
+2023-06-28 18:55:47 INFO  Practice:39 - -URL opened
+2023-06-28 18:55:49 INFO  Practice:20 - -TC01 passed!
+2023-06-28 18:55:58 INFO  Practice:39 - -URL opened
+2023-06-28 18:56:15 INFO  Practice:30 - -searched clicked
+2023-06-28 18:56:29 INFO  Practice:30 - -searched clicked
+2023-06-28 18:56:39 INFO  Practice:47 - -1
+2023-06-28 18:56:39 INFO  Practice:50 - -Table returned valid data.Test case is passed
+2023-06-28 18:56:39 INFO  Practice:53 - -6
+2023-06-28 23:54:14 INFO  Practice:39 - -URL opened
+2023-06-28 23:54:16 INFO  Practice:20 - -TC01 passed!
+2023-06-28 23:54:20 INFO  Practice:39 - -URL opened
+2023-06-28 23:54:39 INFO  Practice:30 - -searched clicked
+2023-06-28 23:54:54 INFO  Practice:30 - -searched clicked
+2023-06-28 23:55:04 INFO  Practice:47 - -1
+2023-06-28 23:55:04 INFO  Practice:50 - -Table returned valid data.Test case is passed
+2023-06-28 23:55:04 INFO  Practice:53 - -6
+2023-06-29 17:15:11 INFO  Practice:39 - -URL opened
+2023-06-29 17:15:13 INFO  Practice:20 - -TC01 passed!
+2023-06-29 17:15:31 INFO  Practice:39 - -URL opened
+2023-06-29 17:15:50 INFO  Practice:30 - -searched clicked
+2023-06-29 17:16:04 INFO  Practice:30 - -searched clicked
+2023-06-29 17:16:14 INFO  Practice:47 - -1
+2023-06-29 17:16:14 INFO  Practice:50 - -Table returned valid data.Test case is passed
+2023-06-29 17:16:14 INFO  Practice:53 - -6
+2023-06-29 17:31:57 INFO  Practice:39 - -URL opened
+2023-06-29 17:31:59 INFO  Practice:20 - -TC01 passed!
+2023-06-29 17:32:04 INFO  Practice:39 - -URL opened
+2023-06-29 17:32:25 INFO  Practice:30 - -searched clicked
+2023-06-29 17:32:40 INFO  Practice:30 - -searched clicked
+2023-06-29 17:32:50 INFO  Practice:47 - -1
+2023-06-29 17:32:50 INFO  Practice:50 - -Table returned valid data.Test case is passed
+2023-06-29 17:32:50 INFO  Practice:53 - -6
+2023-06-29 17:41:58 INFO  Practice:39 - -URL opened
+2023-06-29 17:42:00 INFO  Practice:20 - -TC01 passed!
+2023-06-29 17:42:09 INFO  Practice:39 - -URL opened
+2023-06-29 17:42:33 INFO  Practice:30 - -searched clicked
+2023-06-29 17:42:48 INFO  Practice:30 - -searched clicked
+2023-06-29 17:42:58 INFO  Practice:47 - -1
+2023-06-29 17:42:58 INFO  Practice:50 - -Table returned valid data.Test case is passed
+2023-06-29 17:42:58 INFO  Practice:53 - -6
+2023-06-29 17:52:28 INFO  Practice:39 - -URL opened
+2023-06-29 17:52:31 INFO  Practice:20 - -TC01 passed!
+2023-06-29 17:52:38 INFO  Practice:39 - -URL opened
+2023-06-29 17:52:56 INFO  Practice:30 - -searched clicked
+2023-06-29 17:53:11 INFO  Practice:30 - -searched clicked
+2023-06-29 17:53:22 INFO  Practice:47 - -1
+2023-06-29 17:53:22 INFO  Practice:50 - -Table returned valid data.Test case is passed
+2023-06-29 17:53:22 INFO  Practice:53 - -6
+2023-06-29 17:53:52 INFO  Practice:39 - -URL opened
+2023-06-29 17:53:57 INFO  Practice:39 - -URL opened
+2023-06-29 21:49:39 INFO  Practice:39 - -URL opened
+2023-06-29 21:49:42 INFO  Practice:20 - -TC01 passed!
+2023-06-29 21:49:46 INFO  Practice:39 - -URL opened
+2023-06-29 21:50:04 INFO  Practice:30 - -searched clicked
+2023-06-29 21:50:19 INFO  Practice:30 - -searched clicked
+2023-06-29 21:50:29 INFO  Practice:47 - -1
+2023-06-29 21:50:29 INFO  Practice:50 - -Table returned valid data.Test case is passed
+2023-06-29 21:50:29 INFO  Practice:53 - -6
+2023-06-29 23:06:13 INFO  Practice:47 - -URL opened
+2023-06-29 23:06:15 INFO  Practice:19 - -TC01 passed!
+2023-06-29 23:06:19 INFO  Practice:47 - -URL opened
+2023-06-29 23:06:37 INFO  Practice:30 - -searched clicked
+2023-06-29 23:06:52 INFO  Practice:30 - -searched clicked
+2023-06-29 23:07:02 INFO  Practice:47 - -1
+2023-06-29 23:07:02 INFO  Practice:50 - -Table returned valid data.Test case is passed
+2023-06-29 23:07:02 INFO  Practice:53 - -6
+2023-06-29 23:21:38 INFO  Practice:47 - -URL opened
+2023-06-29 23:21:40 INFO  Practice:47 - -URL opened
+2023-06-29 23:22:15 INFO  Practice:47 - -URL opened
+2023-06-29 23:22:15 INFO  Practice:47 - -URL opened
+2023-06-29 23:22:17 INFO  Practice:19 - -TC01 passed!
+2023-06-29 23:22:56 INFO  Practice:47 - -URL opened
+2023-06-29 23:22:56 INFO  Practice:47 - -URL opened
+2023-06-29 23:22:59 INFO  Practice:19 - -TC01 passed!
+2023-06-29 23:23:31 INFO  Practice:47 - -URL opened
+2023-06-29 23:23:33 INFO  Practice:19 - -TC01 passed!
+2023-06-29 23:23:39 INFO  Practice:47 - -URL opened
+2023-06-29 23:23:57 INFO  Practice:30 - -searched clicked
+2023-06-29 23:26:25 INFO  Practice:47 - -URL opened
+2023-06-29 23:26:26 INFO  Practice:47 - -URL opened
+2023-06-29 23:36:51 INFO  Practice:47 - -URL opened
+2023-06-29 23:36:51 INFO  Practice:47 - -URL opened
+2023-06-29 23:40:40 INFO  Practice:47 - -URL opened
+2023-06-29 23:40:40 INFO  Practice:47 - -URL opened
+2023-06-29 23:40:43 INFO  Practice:20 - -TC01 passed!
+2023-06-29 23:40:58 INFO  Practice:32 - -searched clicked
+2023-06-29 23:41:13 INFO  Practice:32 - -searched clicked
+2023-06-30 00:04:52 INFO  Practice:47 - -URL opened
+2023-06-30 00:04:52 INFO  Practice:47 - -URL opened
+2023-06-30 00:04:54 INFO  Practice:20 - -TC01 passed!
+2023-06-30 00:05:10 INFO  Practice:32 - -searched clicked
+2023-06-30 00:05:24 INFO  Practice:32 - -searched clicked

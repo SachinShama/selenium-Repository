@@ -16,23 +16,27 @@ public class loginPage {
  }
 
  
- @FindBy(xpath="//*[@id=\"user\"]")
+ @FindBy(name="username")
  WebElement username;
  
- @FindBy(id="sign_in")
- WebElement letGoBtn;
+ @FindBy(name="password")
+ WebElement password;
+ 
+ @FindBy(xpath="//button[@type='submit']")
+ WebElement submit;
 
  
- public void unameinput(String uname) {
+ public void unameInput(String uname) {
 	 username.sendKeys(uname);
  }
  
- public void letsGo() {
-	 letGoBtn.click();
+ public void pwdInput(String pwd) {
+	 password.sendKeys(pwd);
  }
  
- 
- 
+ public void submit() {
+	 submit.click();
+ }
  
 
 }

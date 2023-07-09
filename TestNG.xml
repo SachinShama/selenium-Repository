@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Practice Suite">
+<suite name="Practice Suite" parallel="classes" thread-count="2">
   <test name="Test Basics 1">
-      
+      <parameter name="browser" value="chrome" />
       <classes>
       <class name="testCases.testCase01"/>
+      <class name="testCases.AdminPageTC"/>
       </classes>
   </test> <!-- Test --> 
 
